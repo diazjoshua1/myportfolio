@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Gallery – Portfolio</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="icon" href="assets/icons/favicon.svg" />
+</head>
+<body>
+	<header class="site-header">
+		<div class="container nav">
+			<a class="brand" href="index.html">Joshua <span>Diaz</span></a>
+			<nav class="nav-links" aria-label="Primary">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="projects.html">Projects</a>
+				<a href="resume.html">Resume</a>
+				<a href="blog.html">Blog</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="certificates.html">Certificates</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+			<button class="menu-btn" aria-label="Toggle menu" aria-expanded="false"><span class="menu-icon"></span></button>
+		</div>
+	</header>
+
+	<main class="container">
+		<section>
+			<h1 class="section-title">Gallery</h1>
+				<div class="grid grid-3">
+					<!-- Top row -->
+					<figure class="card gallery-card"><img class="lightbox obj-left" src="assets/img/guitar.jpg" data-full="assets/img/guitar.jpg" alt="Cafe Interior Design" /><figcaption class="card-body">This was taken during one of our band events. I was feeling proud and excited to perform live again after a long break.</figcaption></figure>
+					<figure class="card gallery-card"><img class="lightbox obj-upper" src="assets/img/box.jpg" data-full="assets/img/box.jpg" alt="Financial Dashboard UI" /><figcaption class="card-body">A casual studio shoot day. I wanted to capture a relaxed look.</figcaption></figure>
+					<figure class="card gallery-card"><img class="lightbox obj-upper" src="assets/img/street.jpg" data-full="assets/img/street.jpg" alt="Team Collaboration Concept" /><figcaption class="card-body">This was after a late-night hangout with friends, we found this perfect street lighting and couldn’t resist taking a shot.</figcaption></figure>
+					<!-- Bottom row -->
+					<figure class="card gallery-card"><img class="lightbox obj-center" src="assets/img/tiger.jpg" data-full="assets/img/tiger.jpg" alt="Geometric UI Exploration" /><figcaption class="card-body">This was from a creative photoshoot, I wanted something bold and a bit unexpected, and it turned out to be one of my favorites.</figcaption></figure>
+					<figure class="card gallery-card"><img class="lightbox obj-upper" src="assets/img/brown.jpg" data-full="assets/img/brown.jpg" alt="Minimalist Office Design" /><figcaption class="card-body">Taken during a quiet studio session I was going for a clean and confident look that matched my design style.</figcaption></figure>
+					<figure class="card gallery-card"><img class="lightbox obj-upper" src="assets/img/student.jpg" data-full="assets/img/student.jpg" alt="Data Analytics Platform" /><figcaption class="card-body">A formal portrait from school. It reminds me how far I’ve come since then.</figcaption></figure>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p class="center">Thank you for visiting my portfolio! I appreciate your time and interest in my work.</p>
+			<p class="footer-note">© 2025 Joshua Diaz. All rights reserved.</p>
+		
+	</footer>
+
+	<!-- Image Modal -->
+	<div id="image-modal" class="modal" aria-hidden="true">
+		<button class="modal-close" aria-label="Close">×</button>
+		<img src="" alt="Expanded image" />
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+

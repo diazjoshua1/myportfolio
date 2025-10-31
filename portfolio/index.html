@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Portfolio – Home</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="icon" href="assets/icons/favicon.svg" />
+</head>
+<body>
+	<header class="site-header">
+		<div class="container nav">
+			<a class="brand" href="index.html">Joshua <span>Diaz</span></a>
+			<nav class="nav-links" aria-label="Primary">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="projects.html">Projects</a>
+				<a href="resume.html">Resume</a>
+				<a href="blog.html">Blog</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="certificates.html">Certificates</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+			<button class="menu-btn" aria-label="Toggle menu" aria-expanded="false"><span class="menu-icon"></span></button>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container hero-grid">
+				<div>
+					<h1>Hi, I’m Joshua Diaz</h1>
+					<p class="muted mb-24">Student | Aspiring Software Engineer | Passionate About Front‑End Design</p>
+					<div class="cta-row">
+						<a class="btn btn-primary" href="projects.html">View Projects</a>
+						<a class="btn" href="about.html">About Me</a>
+					</div>
+				</div>
+				<div class="center">
+					<img class="avatar push-right" src="assets/img/profile.jpg" alt="Portrait of Joshua Diaz" />
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<h2 class="section-title">Featured Projects</h2>
+				<div class="grid grid-3">
+					<article class="card">
+						<img class="lightbox" src="assets/img/Dry Clean App.png" data-full="assets/img/Dry Clean App.png" alt="Dry Clean App preview" />
+						<div class="card-body">
+							<h3 class="card-title">Dry Clean App</h3>
+							<p class="card-text">A laundry management app I built to simplify scheduling, tracking, and order handling.</p>
+						</div>
+					</article>
+					<article class="card">
+						<img class="lightbox" src="assets/img/capstone.png" data-full="assets/img/capstone.png" alt="Capstone project dashboard" />
+						<div class="card-body">
+							<h3 class="card-title">Capstone Project</h3>
+							<p class="card-text">Automates and tracks scholarship applications for the Talisay LGU.</p>
+						</div>
+					</article>
+					<article class="card">
+						<img class="lightbox" src="assets/img/fruitninja.png" data-full="assets/img/fruitninja.png" alt="Fruit Ninja App Game" />
+						<div class="card-body">
+							<h3 class="card-title">Fruit Ninja App Game</h3>
+							<p class="card-text">A mobile game featuring fruit slicing mechanics for fun, interactive gameplay.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p class="center">Thank you for visiting my portfolio! I appreciate your time and interest in my work.</p>
+			<p class="footer-note">© 2025 Joshua Diaz. All rights reserved.</p>
+		
+	</footer>
+
+	<!-- Image Modal -->
+	<div id="image-modal" class="modal" aria-hidden="true">
+		<button class="modal-close" aria-label="Close">×</button>
+		<img src="" alt="Expanded image" />
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
