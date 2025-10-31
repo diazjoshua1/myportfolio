@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Blog – Portfolio</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="icon" href="assets/icons/favicon.svg" />
+</head>
+<body>
+	<header class="site-header">
+		<div class="container nav">
+			<a class="brand" href="index.html">Joshua <span>Diaz</span></a>
+			<nav class="nav-links" aria-label="Primary">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Me</a>
+				<a href="projects.html">Projects</a>
+				<a href="resume.html">Resume</a>
+				<a href="blog.html">Blog</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="certificates.html">Certificates</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+			<button class="menu-btn" aria-label="Toggle menu" aria-expanded="false"><span class="menu-icon"></span></button>
+		</div>
+	</header>
+
+	<main class="container">
+		<section>
+			<h1 class="section-title">Blog</h1>
+			<div class="two-col">
+				<div class="grid" style="gap:18px;">
+					<article class="card">
+						<div class="grid" style="grid-template-columns: 180px 1fr; gap:16px; align-items: center;">
+							<img class="lightbox" src="assets/img/master.jpg" data-full="assets/img/master.jpg" alt="Responsive Design" />
+							<div class="card-body">
+								<h3 class="card-title">Mastering Responsive Design: Tips for a Seamless User Experience</h3>
+								<p class="card-text">Responsive design is a necessity for a modern web presence. Learn essential strategies from fluid grids to accessible navigation.</p>
+								<p class="card-text">In this article I walk through a simple layout that progressively enhances from a single‑column mobile view to a multi‑column desktop grid, explaining breakpoints, flexible media, and content‑first decisions along the way.</p>
+								<a class="btn" href="#">Read More</a>
+							</div>
+						</div>
+					</article>
+					<article class="card">
+						<div class="grid" style="grid-template-columns: 180px 1fr; gap:16px; align-items: center;">
+							<img class="lightbox" src="assets/img/tw.jpg" data-full="assets/img/tw.jpg" alt="Tailwind Workflow" />
+							<div class="card-body">
+								<h3 class="card-title">The Power of Tailwind CSS: Streamlining Your Workflow</h3>
+								<p class="card-text">Discover how a utility‑first framework can accelerate your development while keeping designs consistent.</p>
+								<p class="card-text">We’ll refactor a small component library using Tailwind, covering naming conventions, extracting reusable classes with @apply, and setting up a design token system inside tailwind.config.js for long‑term scalability.</p>
+								<a class="btn" href="#">Read More</a>
+							</div>
+						</div>
+					</article>
+					<article class="card">
+						<div class="grid" style="grid-template-columns: 180px 1fr; gap:16px; align-items: center;">
+							<img class="lightbox" src="assets/img/ux.jpg" data-full="assets/img/ux.jpg" alt="UX Best Practices" />
+							<div class="card-body">
+								<h3 class="card-title">UX Best Practices for Engaging Web Applications</h3>
+								<p class="card-text">Learn about key UX principles, common pitfalls, and practical patterns for building delightful interfaces.</p>
+								<p class="card-text">You’ll see practical checklists for onboarding flows, empty states, and error handling, plus lightweight usability testing tips that fit into a student or solo‑developer workflow.</p>
+								<a class="btn" href="#">Read More</a>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<aside class="grid" style="gap:18px;">
+					<article class="card"><div class="card-body">
+						<h3 class="mb-16">Search</h3>
+						<input class="input" type="search" placeholder="Search articles…" />
+					</div></article>
+					<article class="card"><div class="card-body">
+						<h3 class="mb-16">Categories</h3>
+						<div class="chips">
+							<span class="chip">Web Development</span>
+							<span class="chip">UI/UX Design</span>
+							<span class="chip">Career Insights</span>
+							<span class="chip">Tutorials</span>
+							<span class="chip">Case Studies</span>
+						</div>
+					</div></article>
+					<article class="card"><div class="card-body">
+						<h3 class="mb-8">Subscribe to Our Newsletter</h3>
+						<p class="card-text">Get the latest articles and updates directly to your inbox.</p>
+						<form id="newsletter-form" class="form">
+							<input class="input" type="email" placeholder="Enter your email" aria-label="Email" required />
+							<button class="btn btn-primary" type="submit">Subscribe</button>
+						</form>
+					</div></article>
+				</aside>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p class="center">Thank you for visiting my portfolio! I appreciate your time and interest in my work.</p>
+			<p class="footer-note">© 2025 Joshua Diaz. All rights reserved.</p>
+		</div>
+		
+	</footer>
+
+	<!-- Image Modal -->
+	<div id="image-modal" class="modal" aria-hidden="true">
+		<button class="modal-close" aria-label="Close">×</button>
+		<img src="" alt="Expanded image" />
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
